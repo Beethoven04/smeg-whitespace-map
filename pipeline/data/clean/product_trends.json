@@ -1,0 +1,251 @@
+{
+ "source_id": "S1",
+ "note": "Google Trends, Sweden, past 5 years. Relative search interest (0-100), a demand proxy, not sales. Products are compared in one query, so their numbers share one scale. 'Breakout' = growth above 5,000%.",
+ "products": [
+  {
+   "product": "Toaster",
+   "query": "brödrost smeg",
+   "avg_interest_last_12m": 30.8,
+   "avg_interest_prev_12m": 28.0,
+   "change_pct": 10.3,
+   "avg_interest_5y": 26.2
+  },
+  {
+   "product": "Kettle",
+   "query": "vattenkokare smeg",
+   "avg_interest_last_12m": 28.6,
+   "avg_interest_prev_12m": 27.6,
+   "change_pct": 3.6,
+   "avg_interest_5y": 25.3
+  },
+  {
+   "product": "Drip coffee maker",
+   "query": "kaffebryggare smeg",
+   "avg_interest_last_12m": 16.5,
+   "avg_interest_prev_12m": 14.5,
+   "change_pct": 13.3,
+   "avg_interest_5y": 14.5
+  },
+  {
+   "product": "Fridge",
+   "query": "kylskåp smeg",
+   "avg_interest_last_12m": 5.2,
+   "avg_interest_prev_12m": 6.5,
+   "change_pct": -20.2,
+   "avg_interest_5y": 7.2
+  },
+  {
+   "product": "Cooker",
+   "query": "smeg spis",
+   "avg_interest_last_12m": 6.2,
+   "avg_interest_prev_12m": 6.9,
+   "change_pct": -10.1,
+   "avg_interest_5y": 5.9
+  }
+ ],
+ "top_queries": [
+  {
+   "query": "brödrost smeg",
+   "index": 100
+  },
+  {
+   "query": "vattenkokare smeg",
+   "index": 95
+  },
+  {
+   "query": "brödrost",
+   "index": 93
+  },
+  {
+   "query": "vattenkokare",
+   "index": 93
+  },
+  {
+   "query": "kaffebryggare smeg",
+   "index": 57
+  },
+  {
+   "query": "kaffebryggare",
+   "index": 54
+  },
+  {
+   "query": "kylskåp",
+   "index": 36
+  },
+  {
+   "query": "kylskåp smeg",
+   "index": 35
+  },
+  {
+   "query": "spis",
+   "index": 34
+  },
+  {
+   "query": "smeg spis",
+   "index": 34
+  },
+  {
+   "query": "smeg kyl",
+   "index": 28
+  },
+  {
+   "query": "smeg kaffemaskin",
+   "index": 20
+  },
+  {
+   "query": "kaffemaskin",
+   "index": 20
+  },
+  {
+   "query": "smeg frys",
+   "index": 20
+  },
+  {
+   "query": "smeg ugn",
+   "index": 18
+  },
+  {
+   "query": "ugn",
+   "index": 18
+  },
+  {
+   "query": "smeg elgiganten",
+   "index": 17
+  },
+  {
+   "query": "smeg kyl frys",
+   "index": 16
+  },
+  {
+   "query": "smeg blender",
+   "index": 16
+  },
+  {
+   "query": "blender",
+   "index": 16
+  },
+  {
+   "query": "smeg rea",
+   "index": 14
+  },
+  {
+   "query": "mixer",
+   "index": 14
+  },
+  {
+   "query": "smeg mixer",
+   "index": 14
+  },
+  {
+   "query": "espressomaskin",
+   "index": 12
+  },
+  {
+   "query": "mjölkskummare smeg",
+   "index": 12
+  }
+ ],
+ "rising_queries": [
+  {
+   "query": "smeg personal blender",
+   "change": "Breakout"
+  },
+  {
+   "query": "smeg bcc02",
+   "change": "Breakout"
+  },
+  {
+   "query": "ninja creami",
+   "change": "Breakout"
+  },
+  {
+   "query": "smeg knivställ",
+   "change": "+1,300%"
+  },
+  {
+   "query": "airfryer",
+   "change": "+1,250%"
+  },
+  {
+   "query": "smeg air fryer",
+   "change": "+1,000%"
+  },
+  {
+   "query": "smeg smoothie maskin",
+   "change": "+600%"
+  },
+  {
+   "query": "smeg traktörpanna",
+   "change": "+600%"
+  },
+  {
+   "query": "kolsyremaskin",
+   "change": "+550%"
+  },
+  {
+   "query": "smeg kolsyremaskin",
+   "change": "+500%"
+  },
+  {
+   "query": "smeg porsche",
+   "change": "+450%"
+  },
+  {
+   "query": "nespresso maskin",
+   "change": "+400%"
+  },
+  {
+   "query": "aarke",
+   "change": "+350%"
+  },
+  {
+   "query": "smeg kaffemugg",
+   "change": "+350%"
+  },
+  {
+   "query": "smeg kastrull",
+   "change": "+350%"
+  },
+  {
+   "query": "smeg stekpanna",
+   "change": "+300%"
+  },
+  {
+   "query": "stekpanna",
+   "change": "+300%"
+  },
+  {
+   "query": "smeg kaffebryggare rea",
+   "change": "+250%"
+  },
+  {
+   "query": "smeg coffee machine",
+   "change": "+250%"
+  },
+  {
+   "query": "sodastream",
+   "change": "+200%"
+  },
+  {
+   "query": "smeg beige",
+   "change": "+200%"
+  },
+  {
+   "query": "mjölkskummare",
+   "change": "+160%"
+  },
+  {
+   "query": "mjölkskummare smeg",
+   "change": "+160%"
+  },
+  {
+   "query": "elvisp",
+   "change": "+110%"
+  },
+  {
+   "query": "elvisp smeg",
+   "change": "+110%"
+  }
+ ],
+ "generated": "20261024"
+}

@@ -1,0 +1,251 @@
+geoName,geoCode,smeg_interest
+Afghanistan,AF,1
+Albania,AL,15
+Algeria,DZ,5
+American Samoa,AS,0
+Andorra,AD,34
+Angola,AO,4
+Anguilla,AI,0
+Antarctica,AQ,0
+Antigua & Barbuda,AG,7
+Argentina,AR,5
+Armenia,AM,12
+Aruba,AW,5
+Australia,AU,65
+Austria,AT,17
+Azerbaijan,AZ,7
+Bahamas,BS,6
+Bahrain,BH,10
+Bangladesh,BD,1
+Barbados,BB,21
+Belarus,BY,11
+Belgium,BE,58
+Belize,BZ,2
+Benin,BJ,2
+Bermuda,BM,12
+Bhutan,BT,2
+Bolivia,BO,1
+Bosnia & Herzegovina,BA,7
+Botswana,BW,15
+Bouvet Island,BV,0
+Brazil,BR,2
+British Indian Ocean Territory,IO,0
+British Virgin Islands,VG,10
+Brunei,BN,13
+Bulgaria,BG,12
+Burkina Faso,BF,3
+Burundi,BI,2
+Cambodia,KH,5
+Cameroon,CM,1
+Canada,CA,15
+Cape Verde,CV,6
+Caribbean Netherlands,BQ,36
+Cayman Islands,KY,15
+Central African Republic,CF,0
+Chad,TD,3
+Chile,CL,3
+China,CN,4
+Christmas Island,CX,0
+Cocos (Keeling) Islands,CC,0
+Colombia,CO,2
+Comoros,KM,0
+Congo - Brazzaville,CG,2
+Congo - Kinshasa,CD,2
+Cook Islands,CK,0
+Costa Rica,CR,2
+Croatia,HR,15
+Cuba,CU,1
+Curaçao,CW,11
+Cyprus,CY,16
+Czechia,CZ,13
+Côte d’Ivoire,CI,2
+Denmark,DK,35
+Djibouti,DJ,0
+Dominica,DM,4
+Dominican Republic,DO,2
+Ecuador,EC,1
+Egypt,EG,8
+El Salvador,SV,1
+Equatorial Guinea,GQ,0
+Eritrea,ER,0
+Estonia,EE,19
+Eswatini,SZ,14
+Ethiopia,ET,2
+Falkland Islands (Islas Malvinas),FK,0
+Faroe Islands,FO,19
+Fiji,FJ,5
+Finland,FI,26
+France,FR,42
+French Guiana,GF,7
+French Polynesia,PF,10
+French Southern Territories,TF,0
+Gabon,GA,2
+Gambia,GM,3
+Georgia,GE,12
+Germany,DE,22
+Ghana,GH,1
+Gibraltar,GI,44
+Greece,GR,11
+Greenland,GL,12
+Grenada,GD,5
+Guadeloupe,GP,14
+Guam,GU,5
+Guatemala,GT,2
+Guernsey,GG,25
+Guinea,GN,2
+Guinea-Bissau,GW,0
+Guyana,GY,3
+Haiti,HT,0
+Heard & McDonald Islands,HM,0
+Honduras,HN,1
+Hong Kong,HK,8
+Hungary,HU,8
+Iceland,IS,35
+India,IN,1
+Indonesia,ID,2
+Iran,IR,16
+Iraq,IQ,4
+Ireland,IE,29
+Isle of Man,IM,24
+Israel,IL,17
+Italy,IT,44
+Jamaica,JM,3
+Japan,JP,1
+Jersey,JE,34
+Jordan,JO,6
+Kazakhstan,KZ,11
+Kenya,KE,3
+Kiribati,KI,0
+Kosovo,XK,9
+Kuwait,KW,11
+Kyrgyzstan,KG,7
+Laos,LA,7
+Latvia,LV,17
+Lebanon,LB,9
+Lesotho,LS,19
+Liberia,LR,1
+Libya,LY,10
+Liechtenstein,LI,15
+Lithuania,LT,21
+Luxembourg,LU,30
+Macao,MO,5
+Madagascar,MG,9
+Malawi,MW,3
+Malaysia,MY,10
+Maldives,MV,11
+Mali,ML,1
+Malta,MT,33
+Marshall Islands,MH,0
+Martinique,MQ,14
+Mauritania,MR,3
+Mauritius,MU,9
+Mayotte,YT,12
+Mexico,MX,6
+Micronesia,FM,0
+Moldova,MD,18
+Monaco,MC,0
+Mongolia,MN,8
+Montenegro,ME,11
+Montserrat,MS,0
+Morocco,MA,7
+Mozambique,MZ,9
+Myanmar (Burma),MM,2
+Namibia,NA,14
+Nauru,NR,0
+Nepal,NP,2
+Netherlands,NL,49
+New Caledonia,NC,12
+New Zealand,NZ,49
+Nicaragua,NI,1
+Niger,NE,3
+Nigeria,NG,1
+Niue,NU,0
+Norfolk Island,NF,0
+North Korea,KP,0
+North Macedonia,MK,8
+Northern Mariana Islands,MP,0
+Norway,NO,46
+Oman,OM,5
+Pakistan,PK,1
+Palau,PW,0
+Palestine,PS,5
+Panama,PA,3
+Papua New Guinea,PG,3
+Paraguay,PY,2
+Peru,PE,2
+Philippines,PH,5
+Pitcairn Islands,PN,0
+Poland,PL,27
+Portugal,PT,45
+Puerto Rico,PR,3
+Qatar,QA,11
+Romania,RO,10
+Russia,RU,13
+Rwanda,RW,3
+Réunion,RE,14
+Samoa,WS,0
+San Marino,SM,41
+Saudi Arabia,SA,13
+Senegal,SN,4
+Serbia,RS,8
+Seychelles,SC,16
+Sierra Leone,SL,3
+Singapore,SG,23
+Sint Maarten,SX,18
+Slovakia,SK,13
+Slovenia,SI,13
+Solomon Islands,SB,0
+Somalia,SO,1
+South Africa,ZA,59
+South Georgia & South Sandwich Islands,GS,0
+South Korea,KR,4
+South Sudan,SS,0
+Spain,ES,15
+Sri Lanka,LK,3
+St. Barthélemy,BL,16
+St. Helena,SH,45
+St. Kitts & Nevis,KN,0
+St. Lucia,LC,4
+St. Martin,MF,30
+St. Pierre & Miquelon,PM,100
+St. Vincent & Grenadines,VC,3
+Sudan,SD,4
+Suriname,SR,5
+Svalbard & Jan Mayen,SJ,0
+Sweden,SE,61
+Switzerland,CH,20
+Syria,SY,2
+São Tomé & Príncipe,ST,0
+Taiwan,TW,6
+Tajikistan,TJ,4
+Tanzania,TZ,7
+Thailand,TH,12
+Timor-Leste,TL,0
+Togo,TG,2
+Tokelau,TK,0
+Tonga,TO,0
+Trinidad & Tobago,TT,3
+Tunisia,TN,8
+Turkmenistan,TM,3
+Turks & Caicos Islands,TC,11
+Tuvalu,TV,0
+Türkiye,TR,16
+U.S. Outlying Islands,UM,0
+U.S. Virgin Islands,VI,4
+Uganda,UG,1
+Ukraine,UA,14
+United Arab Emirates,AE,20
+United Kingdom,GB,37
+United States,US,6
+Uruguay,UY,3
+Uzbekistan,UZ,6
+Vanuatu,VU,0
+Vatican City,VA,0
+Venezuela,VE,1
+Vietnam,VN,3
+Wallis & Futuna,WF,0
+Western Sahara,EH,4
+Yemen,YE,2
+Zambia,ZM,5
+Zimbabwe,ZW,14
+Åland Islands,AX,23

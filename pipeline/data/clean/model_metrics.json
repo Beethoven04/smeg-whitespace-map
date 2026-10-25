@@ -1,0 +1,100 @@
+{
+  "europe": {
+    "n": 28,
+    "dropped_missing_features": [
+      "CH",
+      "IS",
+      "GB"
+    ],
+    "target": "trends_5y (Google Trends Smeg topic, 0-100, proxy)",
+    "features": [
+      "log_gdp_pc_pps",
+      "log_hh_consumption_pc_pps",
+      "log_pop_density_km2",
+      "dwelling_permits_per_1000"
+    ],
+    "cv": "leave-one-out, out-of-fold",
+    "seed": 42,
+    "n_bootstrap": 200,
+    "baseline_mae": 13.249,
+    "baseline_r2": -0.075,
+    "model_mae": 12.576,
+    "model_r2": 0.037,
+    "alpha": 31.622776601683793,
+    "coefficients_standardized": {
+      "log_gdp_pc_pps": {
+        "full_fit": 2.195,
+        "loo_mean": 2.209,
+        "loo_min": 1.848,
+        "loo_max": 3.163
+      },
+      "log_hh_consumption_pc_pps": {
+        "full_fit": 2.695,
+        "loo_mean": 2.724,
+        "loo_min": 2.292,
+        "loo_max": 3.533
+      },
+      "log_pop_density_km2": {
+        "full_fit": 0.785,
+        "loo_mean": 0.79,
+        "loo_min": 0.131,
+        "loo_max": 2.07
+      },
+      "dwelling_permits_per_1000": {
+        "full_fit": -0.787,
+        "loo_mean": -0.813,
+        "loo_min": -2.008,
+        "loo_max": -0.219
+      }
+    },
+    "intercept": 26.679,
+    "beats_baseline": true
+  },
+  "sweden": {
+    "n": 21,
+    "dropped_missing_features": [],
+    "target": "trends_5y (Google Trends Smeg topic, 0-100, proxy)",
+    "features": [
+      "log_hh_disp_income_median_tkr",
+      "log_households",
+      "households_per_capita",
+      "dwellings_completed_per_1000"
+    ],
+    "cv": "leave-one-out, out-of-fold",
+    "seed": 42,
+    "n_bootstrap": 200,
+    "baseline_mae": 7.357,
+    "baseline_r2": -0.103,
+    "model_mae": 6.412,
+    "model_r2": 0.27,
+    "alpha": 10.0,
+    "coefficients_standardized": {
+      "log_hh_disp_income_median_tkr": {
+        "full_fit": 1.991,
+        "loo_mean": 1.656,
+        "loo_min": -4.921,
+        "loo_max": 2.268
+      },
+      "log_households": {
+        "full_fit": 2.048,
+        "loo_mean": 2.086,
+        "loo_min": 1.147,
+        "loo_max": 3.8
+      },
+      "households_per_capita": {
+        "full_fit": -3.157,
+        "loo_mean": -3.492,
+        "loo_min": -9.419,
+        "loo_max": -2.7
+      },
+      "dwellings_completed_per_1000": {
+        "full_fit": 0.59,
+        "loo_mean": 0.748,
+        "loo_min": 0.157,
+        "loo_max": 3.275
+      }
+    },
+    "intercept": 74.143,
+    "beats_baseline": true
+  }
+}

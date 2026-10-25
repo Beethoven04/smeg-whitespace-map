@@ -1,0 +1,687 @@
+{
+  "source": "pytrends_smeg_topic_se_over_time_5y_20261024.csv",
+  "target": "Google Trends relative search interest (0-100), Smeg topic, Sweden, weekly. Demand PROXY, not sales.",
+  "n_weeks": 260,
+  "first_week": "2021-10-24",
+  "last_week": "2026-10-11",
+  "holdout": {
+    "weeks": 52,
+    "start": "2025-10-19",
+    "end": "2026-10-11",
+    "metrics": [
+      {
+        "model": "seasonal_naive",
+        "kind": "baseline",
+        "mae": 5.33,
+        "mape_pct": 11.26,
+        "rmse": 7.02,
+        "beats_seasonal_naive": null
+      },
+      {
+        "model": "train_mean",
+        "kind": "baseline",
+        "mae": 10.02,
+        "mape_pct": 18.63,
+        "rmse": 15.83,
+        "beats_seasonal_naive": false
+      },
+      {
+        "model": "holt_winters_damped",
+        "kind": "model",
+        "mae": 4.09,
+        "mape_pct": 8.32,
+        "rmse": 6.72,
+        "beats_seasonal_naive": true
+      },
+      {
+        "model": "stl_arima",
+        "kind": "model",
+        "mae": 9.11,
+        "mape_pct": 20.35,
+        "rmse": 10.4,
+        "beats_seasonal_naive": false
+      }
+    ]
+  },
+  "chosen_model": "holt_winters_damped",
+  "best_model_by_holdout_mae": "holt_winters_damped",
+  "beats_seasonal_naive": true,
+  "interval_method": "Holt-Winters simulate(): 2000 future paths with additive errors drawn from N(0, fitted residual variance); 10th-90th percentile.",
+  "history": [
+    {
+      "date": "2024-10-20",
+      "value": 37.0
+    },
+    {
+      "date": "2024-10-27",
+      "value": 42.0
+    },
+    {
+      "date": "2024-11-03",
+      "value": 41.0
+    },
+    {
+      "date": "2024-11-10",
+      "value": 55.0
+    },
+    {
+      "date": "2024-11-17",
+      "value": 61.0
+    },
+    {
+      "date": "2024-11-24",
+      "value": 80.0
+    },
+    {
+      "date": "2024-12-01",
+      "value": 51.0
+    },
+    {
+      "date": "2024-12-08",
+      "value": 43.0
+    },
+    {
+      "date": "2024-12-15",
+      "value": 46.0
+    },
+    {
+      "date": "2024-12-22",
+      "value": 67.0
+    },
+    {
+      "date": "2024-12-29",
+      "value": 48.0
+    },
+    {
+      "date": "2025-01-05",
+      "value": 50.0
+    },
+    {
+      "date": "2025-01-12",
+      "value": 41.0
+    },
+    {
+      "date": "2025-01-19",
+      "value": 37.0
+    },
+    {
+      "date": "2025-01-26",
+      "value": 40.0
+    },
+    {
+      "date": "2025-02-02",
+      "value": 39.0
+    },
+    {
+      "date": "2025-02-09",
+      "value": 41.0
+    },
+    {
+      "date": "2025-02-16",
+      "value": 37.0
+    },
+    {
+      "date": "2025-02-23",
+      "value": 34.0
+    },
+    {
+      "date": "2025-03-02",
+      "value": 34.0
+    },
+    {
+      "date": "2025-03-09",
+      "value": 33.0
+    },
+    {
+      "date": "2025-03-16",
+      "value": 33.0
+    },
+    {
+      "date": "2025-03-23",
+      "value": 30.0
+    },
+    {
+      "date": "2025-03-30",
+      "value": 34.0
+    },
+    {
+      "date": "2025-04-06",
+      "value": 40.0
+    },
+    {
+      "date": "2025-04-13",
+      "value": 37.0
+    },
+    {
+      "date": "2025-04-20",
+      "value": 39.0
+    },
+    {
+      "date": "2025-04-27",
+      "value": 35.0
+    },
+    {
+      "date": "2025-05-04",
+      "value": 41.0
+    },
+    {
+      "date": "2025-05-11",
+      "value": 38.0
+    },
+    {
+      "date": "2025-05-18",
+      "value": 40.0
+    },
+    {
+      "date": "2025-05-25",
+      "value": 39.0
+    },
+    {
+      "date": "2025-06-01",
+      "value": 36.0
+    },
+    {
+      "date": "2025-06-08",
+      "value": 31.0
+    },
+    {
+      "date": "2025-06-15",
+      "value": 26.0
+    },
+    {
+      "date": "2025-06-22",
+      "value": 34.0
+    },
+    {
+      "date": "2025-06-29",
+      "value": 31.0
+    },
+    {
+      "date": "2025-07-06",
+      "value": 36.0
+    },
+    {
+      "date": "2025-07-13",
+      "value": 31.0
+    },
+    {
+      "date": "2025-07-20",
+      "value": 38.0
+    },
+    {
+      "date": "2025-07-27",
+      "value": 35.0
+    },
+    {
+      "date": "2025-08-03",
+      "value": 39.0
+    },
+    {
+      "date": "2025-08-10",
+      "value": 35.0
+    },
+    {
+      "date": "2025-08-17",
+      "value": 39.0
+    },
+    {
+      "date": "2025-08-24",
+      "value": 41.0
+    },
+    {
+      "date": "2025-08-31",
+      "value": 39.0
+    },
+    {
+      "date": "2025-09-07",
+      "value": 42.0
+    },
+    {
+      "date": "2025-09-14",
+      "value": 40.0
+    },
+    {
+      "date": "2025-09-21",
+      "value": 37.0
+    },
+    {
+      "date": "2025-09-28",
+      "value": 40.0
+    },
+    {
+      "date": "2025-10-05",
+      "value": 38.0
+    },
+    {
+      "date": "2025-10-12",
+      "value": 43.0
+    },
+    {
+      "date": "2025-10-19",
+      "value": 43.0
+    },
+    {
+      "date": "2025-10-26",
+      "value": 56.0
+    },
+    {
+      "date": "2025-11-02",
+      "value": 52.0
+    },
+    {
+      "date": "2025-11-09",
+      "value": 54.0
+    },
+    {
+      "date": "2025-11-16",
+      "value": 74.0
+    },
+    {
+      "date": "2025-11-23",
+      "value": 100.0
+    },
+    {
+      "date": "2025-11-30",
+      "value": 58.0
+    },
+    {
+      "date": "2025-12-07",
+      "value": 54.0
+    },
+    {
+      "date": "2025-12-14",
+      "value": 53.0
+    },
+    {
+      "date": "2025-12-21",
+      "value": 78.0
+    },
+    {
+      "date": "2025-12-28",
+      "value": 66.0
+    },
+    {
+      "date": "2026-01-04",
+      "value": 53.0
+    },
+    {
+      "date": "2026-01-11",
+      "value": 44.0
+    },
+    {
+      "date": "2026-01-18",
+      "value": 44.0
+    },
+    {
+      "date": "2026-01-25",
+      "value": 40.0
+    },
+    {
+      "date": "2026-02-01",
+      "value": 47.0
+    },
+    {
+      "date": "2026-02-08",
+      "value": 44.0
+    },
+    {
+      "date": "2026-02-15",
+      "value": 38.0
+    },
+    {
+      "date": "2026-02-22",
+      "value": 39.0
+    },
+    {
+      "date": "2026-03-01",
+      "value": 36.0
+    },
+    {
+      "date": "2026-03-08",
+      "value": 37.0
+    },
+    {
+      "date": "2026-03-15",
+      "value": 39.0
+    },
+    {
+      "date": "2026-03-22",
+      "value": 39.0
+    },
+    {
+      "date": "2026-03-29",
+      "value": 43.0
+    },
+    {
+      "date": "2026-04-05",
+      "value": 46.0
+    },
+    {
+      "date": "2026-04-12",
+      "value": 39.0
+    },
+    {
+      "date": "2026-04-19",
+      "value": 37.0
+    },
+    {
+      "date": "2026-04-26",
+      "value": 36.0
+    },
+    {
+      "date": "2026-05-03",
+      "value": 40.0
+    },
+    {
+      "date": "2026-05-10",
+      "value": 42.0
+    },
+    {
+      "date": "2026-05-17",
+      "value": 39.0
+    },
+    {
+      "date": "2026-05-24",
+      "value": 36.0
+    },
+    {
+      "date": "2026-05-31",
+      "value": 39.0
+    },
+    {
+      "date": "2026-06-07",
+      "value": 39.0
+    },
+    {
+      "date": "2026-06-14",
+      "value": 33.0
+    },
+    {
+      "date": "2026-06-21",
+      "value": 33.0
+    },
+    {
+      "date": "2026-06-28",
+      "value": 31.0
+    },
+    {
+      "date": "2026-07-05",
+      "value": 35.0
+    },
+    {
+      "date": "2026-07-12",
+      "value": 33.0
+    },
+    {
+      "date": "2026-07-19",
+      "value": 38.0
+    },
+    {
+      "date": "2026-07-26",
+      "value": 37.0
+    },
+    {
+      "date": "2026-08-02",
+      "value": 45.0
+    },
+    {
+      "date": "2026-08-09",
+      "value": 47.0
+    },
+    {
+      "date": "2026-08-16",
+      "value": 38.0
+    },
+    {
+      "date": "2026-08-23",
+      "value": 36.0
+    },
+    {
+      "date": "2026-08-30",
+      "value": 34.0
+    },
+    {
+      "date": "2026-09-06",
+      "value": 35.0
+    },
+    {
+      "date": "2026-09-13",
+      "value": 32.0
+    },
+    {
+      "date": "2026-09-20",
+      "value": 37.0
+    },
+    {
+      "date": "2026-09-27",
+      "value": 39.0
+    },
+    {
+      "date": "2026-10-04",
+      "value": 43.0
+    },
+    {
+      "date": "2026-10-11",
+      "value": 39.0
+    }
+  ],
+  "forecast": [
+    {
+      "date": "2026-10-18",
+      "mean": 38.5,
+      "lo80": 32.8,
+      "hi80": 44.7
+    },
+    {
+      "date": "2026-10-25",
+      "mean": 46.5,
+      "lo80": 40.5,
+      "hi80": 52.8
+    },
+    {
+      "date": "2026-11-01",
+      "mean": 45.4,
+      "lo80": 38.9,
+      "hi80": 51.3
+    },
+    {
+      "date": "2026-11-08",
+      "mean": 55.8,
+      "lo80": 49.5,
+      "hi80": 62.5
+    },
+    {
+      "date": "2026-11-15",
+      "mean": 74.2,
+      "lo80": 67.9,
+      "hi80": 80.5
+    },
+    {
+      "date": "2026-11-22",
+      "mean": 70.6,
+      "lo80": 64.0,
+      "hi80": 76.9
+    },
+    {
+      "date": "2026-11-29",
+      "mean": 52.4,
+      "lo80": 46.0,
+      "hi80": 59.2
+    },
+    {
+      "date": "2026-12-06",
+      "mean": 49.8,
+      "lo80": 43.1,
+      "hi80": 56.7
+    },
+    {
+      "date": "2026-12-13",
+      "mean": 53.6,
+      "lo80": 47.1,
+      "hi80": 60.4
+    },
+    {
+      "date": "2026-12-20",
+      "mean": 68.2,
+      "lo80": 61.5,
+      "hi80": 75.1
+    },
+    {
+      "date": "2026-12-27",
+      "mean": 53.6,
+      "lo80": 46.8,
+      "hi80": 60.5
+    },
+    {
+      "date": "2027-01-03",
+      "mean": 48.0,
+      "lo80": 40.7,
+      "hi80": 54.9
+    }
+  ],
+  "annual_mean_index": 36.3,
+  "monthly_profile": [
+    {
+      "month": 1,
+      "name": "Jan",
+      "avg_index": 38.3,
+      "pct_vs_annual_mean": 5.5
+    },
+    {
+      "month": 2,
+      "name": "Feb",
+      "avg_index": 34.5,
+      "pct_vs_annual_mean": -5.0
+    },
+    {
+      "month": 3,
+      "name": "Mar",
+      "avg_index": 32.5,
+      "pct_vs_annual_mean": -10.5
+    },
+    {
+      "month": 4,
+      "name": "Apr",
+      "avg_index": 32.1,
+      "pct_vs_annual_mean": -11.5
+    },
+    {
+      "month": 5,
+      "name": "May",
+      "avg_index": 31.5,
+      "pct_vs_annual_mean": -13.3
+    },
+    {
+      "month": 6,
+      "name": "Jun",
+      "avg_index": 28.7,
+      "pct_vs_annual_mean": -21.0
+    },
+    {
+      "month": 7,
+      "name": "Jul",
+      "avg_index": 31.4,
+      "pct_vs_annual_mean": -13.5
+    },
+    {
+      "month": 8,
+      "name": "Aug",
+      "avg_index": 34.0,
+      "pct_vs_annual_mean": -6.4
+    },
+    {
+      "month": 9,
+      "name": "Sep",
+      "avg_index": 32.4,
+      "pct_vs_annual_mean": -10.9
+    },
+    {
+      "month": 10,
+      "name": "Oct",
+      "avg_index": 35.2,
+      "pct_vs_annual_mean": -3.2
+    },
+    {
+      "month": 11,
+      "name": "Nov",
+      "avg_index": 55.8,
+      "pct_vs_annual_mean": 53.6
+    },
+    {
+      "month": 12,
+      "name": "Dec",
+      "avg_index": 50.0,
+      "pct_vs_annual_mean": 37.6
+    }
+  ],
+  "top_iso_weeks": [
+    {
+      "iso_week": 47,
+      "avg_index": 68.4,
+      "pct_vs_annual_mean": 88.3
+    },
+    {
+      "iso_week": 48,
+      "avg_index": 64.8,
+      "pct_vs_annual_mean": 78.4
+    },
+    {
+      "iso_week": 52,
+      "avg_index": 62.4,
+      "pct_vs_annual_mean": 71.8
+    },
+    {
+      "iso_week": 46,
+      "avg_index": 50.0,
+      "pct_vs_annual_mean": 37.6
+    },
+    {
+      "iso_week": 51,
+      "avg_index": 47.8,
+      "pct_vs_annual_mean": 31.6
+    }
+  ],
+  "peak_weeks_by_year": [
+    {
+      "year": 2022,
+      "peak_date": "2022-11-20",
+      "contains_black_friday": true,
+      "iso_week": 47,
+      "value": 55.0,
+      "peak_month": "Nov"
+    },
+    {
+      "year": 2023,
+      "peak_date": "2023-11-19",
+      "contains_black_friday": true,
+      "iso_week": 47,
+      "value": 77.0,
+      "peak_month": "Nov"
+    },
+    {
+      "year": 2024,
+      "peak_date": "2024-11-24",
+      "contains_black_friday": true,
+      "iso_week": 48,
+      "value": 80.0,
+      "peak_month": "Nov"
+    },
+    {
+      "year": 2025,
+      "peak_date": "2025-11-23",
+      "contains_black_friday": true,
+      "iso_week": 48,
+      "value": 100.0,
+      "peak_month": "Nov"
+    }
+  ],
+  "yoy_change_pct": 9.3,
+  "worldwide_file_identical_to_se": false,
+  "notes": [
+    "Google Trends is relative search interest, rescaled 0-100 within this query; a proxy for demand, not sales.",
+    "Re-downloading the series can change values (sampling, rescaling).",
+    "Model chosen by MAE on the last 52 weeks only; then refit on all data.",
+    "Worldwide file differs from Sweden file.",
+    "If beats_seasonal_naive is false, show only the seasonal profile, not the forecast."
+  ]
+}

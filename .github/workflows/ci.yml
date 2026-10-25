@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  app:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+
+  pipeline:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pipeline
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Rebuild from committed data (no network)
+        run: |
+          cp data/clean/app_data.json /tmp/app_data.before.json
+          PYTHON=python ./run_all.sh --offline
+      - name: Rebuilt data matches the committed app data (ignoring the timestamp)
+        run: |
+          python - <<'PY'
+          import json
+          a = json.load(open("/tmp/app_data.before.json")); b = json.load(open("data/clean/app_data.json"))
+          a.pop("generated_at", None); b.pop("generated_at", None)
+          assert a == b, "app_data.json is not reproducible from the committed data"
+          print("app_data.json reproducible")
+          PY

@@ -1,0 +1,13 @@
+{
+ "input": "{\"county\":\"Stockholm\",\"rank_of_21\":1,\"whitespace_score_0_to_1\":1,\"smeg_search_interest_0_100\":{\"value\":100,\"sweden_median\":74,\"source\":\"S1\"},\"model_expected_interest\":{\"value\":79.1,\"note\":\"ridge model, out-of-sample\",\"source\":\"S1, S2, S3, S4\"},\"smeg_retailers\":{\"count\":78,\"per_100k_households\":6.92,\"national_per_100k_households\":10.05,\"source\":\"S5\"},\"households\":{\"value\":1127801,\"source\":\"S2\"},\"median_household_disposable_income_ksek_2024\":{\"value\":551.5,\"source\":\"S3\"},\"new_dwellings_per_1000_residents_2025\":{\"value\":4.3,\"source\":\"S4\"}}",
+ "data": {
+  "headline": "Proceed with opening a Smeg store in Stockholm County.",
+  "why": [
+   "Google search interest is max 100, indicating strong demand (S1).",
+   "Model predicts 79.1 interest score, suggesting high potential (S1, S2, S3, S4).",
+   "Retailer density is 6.92 per 100k households, below national 10.05 (S5)."
+  ],
+  "action": "Commission a site selection study and negotiate lease for a flagship location within the next 90 days.",
+  "risk": "Search interest is a proxy for demand and may not translate directly into sales."
+ }
+}

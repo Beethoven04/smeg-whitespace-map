@@ -1,0 +1,22 @@
+iso_3166_2,county_code,county_name_sv,gtrends_name_en,gtrends_geoName,name_match
+SE-AB,01,Stockholms län,Stockholm County,Stockholm County,True
+SE-C,03,Uppsala län,Uppsala County,Uppsala County,True
+SE-D,04,Södermanlands län,Södermanland County,Södermanland County,True
+SE-E,05,Östergötlands län,Östergötland County,Östergötland County,True
+SE-F,06,Jönköpings län,Jönköping County,Jonkoping County,True
+SE-G,07,Kronobergs län,Kronoberg County,Kronoberg County,True
+SE-H,08,Kalmar län,Kalmar County,Kalmar County,True
+SE-I,09,Gotlands län,Gotland County,Gotland County,True
+SE-K,10,Blekinge län,Blekinge County,Blekinge County,True
+SE-M,12,Skåne län,Skåne County,Skåne County,True
+SE-N,13,Hallands län,Halland County,Halland County,True
+SE-O,14,Västra Götalands län,Västra Götaland County,Västra Götaland County,True
+SE-S,17,Värmlands län,Värmland County,Varmland County,True
+SE-T,18,Örebro län,Örebro County,Örebro County,True
+SE-U,19,Västmanlands län,Västmanland County,Västmanland County,True
+SE-W,20,Dalarnas län,Dalarna County,Dalarna County,True
+SE-X,21,Gävleborgs län,Gävleborg County,Gavleborg County,True
+SE-Y,22,Västernorrlands län,Västernorrland County,Västernorrland County,True
+SE-Z,23,Jämtlands län,Jämtland County,Jamtland County,True
+SE-AC,24,Västerbottens län,Västerbotten County,Västerbotten County,True
+SE-BD,25,Norrbottens län,Norrbotten County,Norrbotten County,True

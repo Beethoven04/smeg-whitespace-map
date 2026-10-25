@@ -1,0 +1,2078 @@
+{
+ "is_sample": false,
+ "generated_at": "2026-10-24T12:39:46Z",
+ "sources": [
+  {
+   "id": "S1",
+   "short": "Google Trends",
+   "name": "Google Trends – Smeg topic, interest by country and Swedish county (5 y, 12 m)",
+   "publisher": "Google",
+   "url": "https://trends.google.com/trends/explore?date=today%205-y&q=%2Fg%2F11cnkj_9n2",
+   "accessed": "2026-10-24"
+  },
+  {
+   "id": "S2",
+   "short": "SCB households",
+   "name": "Households per county 2025 (HE0111)",
+   "publisher": "SCB",
+   "url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__HE__HE0111/",
+   "accessed": "2026-10-24"
+  },
+  {
+   "id": "S3",
+   "short": "SCB income",
+   "name": "Household disposable income per county 2024 (HE0110)",
+   "publisher": "SCB",
+   "url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__HE__HE0110/",
+   "accessed": "2026-10-24"
+  },
+  {
+   "id": "S4",
+   "short": "SCB housing",
+   "name": "Completed new dwellings per county 2022–2025 (BO0101)",
+   "publisher": "SCB",
+   "url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BO__BO0101/",
+   "accessed": "2026-10-24"
+  },
+  {
+   "id": "S5",
+   "short": "Smeg store locator",
+   "name": "Smeg store locator Sweden (504 stores, 503 mapped to a county)",
+   "publisher": "Smeg",
+   "url": "https://www.smeg.com/se/stores-locator",
+   "accessed": "2026-10-24"
+  },
+  {
+   "id": "S6",
+   "short": "Allabolag",
+   "name": "SMEG Nordic AB annual accounts 2025, total revenue (omsättning) (org. 556661-1454)",
+   "publisher": "Allabolag / Bolagsverket",
+   "url": "https://www.allabolag.se/bokslut/smeg-nordic-ab/malm%C3%B6/hush%C3%A5llsutrustningar-vitvaror-grossister/2K27SVYI63IH9",
+   "accessed": "2026-10-24"
+  },
+  {
+   "id": "S7",
+   "short": "Eurostat",
+   "name": "GDP per capita, households, density, permits (nama_10_pc, lfst_hhnhtych, tps00003, sts_cobp_a)",
+   "publisher": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/databrowser/",
+   "accessed": "2026-10-24"
+  },
+  {
+   "id": "S9",
+   "short": "Prisjakt",
+   "name": "Prisjakt.nu category listings: kettles, toasters, espresso machines, drip coffee makers, fridges (top 88 by popularity)",
+   "publisher": "Prisjakt",
+   "url": "https://www.prisjakt.nu/c/vattenkokare",
+   "accessed": "2026-10-24"
+  },
+  {
+   "id": "S8",
+   "short": "OpenStreetMap",
+   "name": "Store locality to county (Nominatim geocoder)",
+   "publisher": "OpenStreetMap",
+   "url": "https://nominatim.openstreetmap.org",
+   "accessed": "2026-10-24"
+  }
+ ],
+ "europe": {
+  "target_label": "Google search interest in Smeg, past 5 years (0–100, relative to the top country worldwide). Proxy for brand demand, not sales.",
+  "countries": [
+   {
+    "iso2": "SE",
+    "name": "Sweden",
+    "actual": 61,
+    "recent": 100,
+    "momentum_index": 0.952
+   },
+   {
+    "iso2": "BE",
+    "name": "Belgium",
+    "actual": 58,
+    "recent": 94,
+    "momentum_index": 0.941
+   },
+   {
+    "iso2": "NL",
+    "name": "Netherlands",
+    "actual": 49,
+    "recent": 80,
+    "momentum_index": 0.948
+   },
+   {
+    "iso2": "NO",
+    "name": "Norway",
+    "actual": 46,
+    "recent": 87,
+    "momentum_index": 1.099
+   },
+   {
+    "iso2": "PT",
+    "name": "Portugal",
+    "actual": 45,
+    "recent": 85,
+    "momentum_index": 1.097
+   },
+   {
+    "iso2": "IT",
+    "name": "Italy",
+    "actual": 44,
+    "recent": 67,
+    "momentum_index": 0.885
+   },
+   {
+    "iso2": "FR",
+    "name": "France",
+    "actual": 42,
+    "recent": 69,
+    "momentum_index": 0.954
+   },
+   {
+    "iso2": "GB",
+    "name": "United Kingdom",
+    "actual": 37,
+    "recent": 63,
+    "momentum_index": null
+   },
+   {
+    "iso2": "DK",
+    "name": "Denmark",
+    "actual": 35,
+    "recent": 11,
+    "momentum_index": 0.183
+   },
+   {
+    "iso2": "IS",
+    "name": "Iceland",
+    "actual": 35,
+    "recent": 62,
+    "momentum_index": null
+   },
+   {
+    "iso2": "MT",
+    "name": "Malta",
+    "actual": 33,
+    "recent": 55,
+    "momentum_index": 0.968
+   },
+   {
+    "iso2": "LU",
+    "name": "Luxembourg",
+    "actual": 30,
+    "recent": 47,
+    "momentum_index": 0.91
+   },
+   {
+    "iso2": "IE",
+    "name": "Ireland",
+    "actual": 29,
+    "recent": 51,
+    "momentum_index": 1.022
+   },
+   {
+    "iso2": "PL",
+    "name": "Poland",
+    "actual": 27,
+    "recent": 62,
+    "momentum_index": 1.334
+   },
+   {
+    "iso2": "FI",
+    "name": "Finland",
+    "actual": 26,
+    "recent": 11,
+    "momentum_index": 0.246
+   },
+   {
+    "iso2": "DE",
+    "name": "Germany",
+    "actual": 22,
+    "recent": 37,
+    "momentum_index": 0.977
+   },
+   {
+    "iso2": "LT",
+    "name": "Lithuania",
+    "actual": 21,
+    "recent": 40,
+    "momentum_index": 1.107
+   },
+   {
+    "iso2": "CH",
+    "name": "Switzerland",
+    "actual": 20,
+    "recent": 38,
+    "momentum_index": null
+   },
+   {
+    "iso2": "EE",
+    "name": "Estonia",
+    "actual": 19,
+    "recent": 32,
+    "momentum_index": 0.978
+   },
+   {
+    "iso2": "AT",
+    "name": "Austria",
+    "actual": 17,
+    "recent": 31,
+    "momentum_index": 1.059
+   },
+   {
+    "iso2": "LV",
+    "name": "Latvia",
+    "actual": 17,
+    "recent": 34,
+    "momentum_index": 1.162
+   },
+   {
+    "iso2": "CY",
+    "name": "Cyprus",
+    "actual": 16,
+    "recent": 34,
+    "momentum_index": 1.234
+   },
+   {
+    "iso2": "ES",
+    "name": "Spain",
+    "actual": 15,
+    "recent": 24,
+    "momentum_index": 0.929
+   },
+   {
+    "iso2": "HR",
+    "name": "Croatia",
+    "actual": 15,
+    "recent": 38,
+    "momentum_index": 1.472
+   },
+   {
+    "iso2": "CZ",
+    "name": "Czechia",
+    "actual": 13,
+    "recent": 32,
+    "momentum_index": 1.43
+   },
+   {
+    "iso2": "SI",
+    "name": "Slovenia",
+    "actual": 13,
+    "recent": 25,
+    "momentum_index": 1.117
+   },
+   {
+    "iso2": "SK",
+    "name": "Slovakia",
+    "actual": 13,
+    "recent": 36,
+    "momentum_index": 1.609
+   },
+   {
+    "iso2": "BG",
+    "name": "Bulgaria",
+    "actual": 12,
+    "recent": 24,
+    "momentum_index": 1.162
+   },
+   {
+    "iso2": "GR",
+    "name": "Greece",
+    "actual": 11,
+    "recent": 18,
+    "momentum_index": 0.951
+   },
+   {
+    "iso2": "RO",
+    "name": "Romania",
+    "actual": 10,
+    "recent": 16,
+    "momentum_index": 0.929
+   },
+   {
+    "iso2": "HU",
+    "name": "Hungary",
+    "actual": 8,
+    "recent": 16,
+    "momentum_index": 1.162
+   }
+  ],
+  "model_r2": 0.037,
+  "model_n": 28
+ },
+ "prices": {
+  "source_id": "S9",
+  "note": "Lowest listed price (SEK, excl. shipping) on Prisjakt.nu, most popular products per category, all brands; bundles excluded.",
+  "categories": [
+   {
+    "category": "kettle",
+    "n_products": 87,
+    "category_median_sek": 499,
+    "smeg_median_sek": 1250,
+    "premium_x": 2.5,
+    "smeg_best_rank": 1,
+    "smeg_in_top10": 3,
+    "smeg_products": [
+     {
+      "product": "SMEG KLF03 1,7L",
+      "price_sek": 1393,
+      "shops": 26,
+      "rank": 1,
+      "url": "https://www.prisjakt.nu/produkt.php?p=4566568"
+     },
+     {
+      "product": "SMEG KLF05 0,8L",
+      "price_sek": 1082,
+      "shops": 22,
+      "rank": 3,
+      "url": "https://www.prisjakt.nu/produkt.php?p=5772325"
+     },
+     {
+      "product": "SMEG KLF04 1,7L",
+      "price_sek": 1595,
+      "shops": 21,
+      "rank": 7,
+      "url": "https://www.prisjakt.nu/produkt.php?p=4371557"
+     },
+     {
+      "product": "SMEG WKF01 2,3L",
+      "price_sek": 1106,
+      "shops": 9,
+      "rank": 49,
+      "url": "https://www.prisjakt.nu/produkt.php?p=14363925"
+     }
+    ],
+    "top_rivals": [
+     {
+      "brand": "Philips",
+      "product": "Philips Daily Collection HD9350 1,7L",
+      "price_sek": 397,
+      "rank": 2
+     },
+     {
+      "brand": "Bosch",
+      "product": "Bosch Styline Kettle 1,5L",
+      "price_sek": 782,
+      "rank": 4
+     },
+     {
+      "brand": "Wilfa",
+      "product": "Wilfa WSDK-2000 1,25L",
+      "price_sek": 799,
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "category": "toaster",
+    "n_products": 87,
+    "category_median_sek": 499,
+    "smeg_median_sek": 1539,
+    "premium_x": 3.1,
+    "smeg_best_rank": 1,
+    "smeg_in_top10": 3,
+    "smeg_products": [
+     {
+      "product": "SMEG TSF01",
+      "price_sek": 1488,
+      "shops": 26,
+      "rank": 1,
+      "url": "https://www.prisjakt.nu/produkt.php?p=2623857"
+     },
+     {
+      "product": "SMEG TSF03",
+      "price_sek": 1346,
+      "shops": 16,
+      "rank": 3,
+      "url": "https://www.prisjakt.nu/produkt.php?p=4797819"
+     },
+     {
+      "product": "SMEG TSF02",
+      "price_sek": 1590,
+      "shops": 19,
+      "rank": 7,
+      "url": "https://www.prisjakt.nu/produkt.php?p=2719921"
+     },
+     {
+      "product": "SMEG TSF01 Dolce & Gabbana",
+      "price_sek": 5995,
+      "shops": 2,
+      "rank": 51,
+      "url": "https://www.prisjakt.nu/produkt.php?p=16167776"
+     }
+    ],
+    "top_rivals": [
+     {
+      "brand": "Philips",
+      "product": "Philips Daily Collection HD2581",
+      "price_sek": 296,
+      "rank": 2
+     },
+     {
+      "brand": "Electrolux",
+      "product": "Electrolux E3T1-3ST",
+      "price_sek": 377,
+      "rank": 4
+     },
+     {
+      "brand": "Graef",
+      "product": "Graef TO62",
+      "price_sek": 619,
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "category": "drip coffee maker",
+    "n_products": 95,
+    "category_median_sek": 999,
+    "smeg_median_sek": 1576,
+    "premium_x": 1.6,
+    "smeg_best_rank": 6,
+    "smeg_in_top10": 1,
+    "smeg_products": [
+     {
+      "product": "SMEG DCF02",
+      "price_sek": 1576,
+      "shops": 21,
+      "rank": 6,
+      "url": "https://www.prisjakt.nu/produkt.php?p=5088701"
+     }
+    ],
+    "top_rivals": [
+     {
+      "brand": "Moccamaster",
+      "product": "Moccamaster One Switch",
+      "price_sek": 2299,
+      "rank": 1
+     },
+     {
+      "brand": "Moccamaster",
+      "product": "Moccamaster Automatic",
+      "price_sek": 2974,
+      "rank": 2
+     },
+     {
+      "brand": "Moccamaster",
+      "product": "Moccamaster Optio",
+      "price_sek": 3499,
+      "rank": 3
+     }
+    ]
+   },
+   {
+    "category": "espresso machine",
+    "n_products": 85,
+    "category_median_sek": 4790,
+    "smeg_median_sek": 5969,
+    "premium_x": 1.2,
+    "smeg_best_rank": 46,
+    "smeg_in_top10": 0,
+    "smeg_products": [
+     {
+      "product": "SMEG BCC12",
+      "price_sek": 5969,
+      "shops": 16,
+      "rank": 46,
+      "url": "https://www.prisjakt.nu/produkt.php?p=13502276"
+     }
+    ],
+    "top_rivals": [
+     {
+      "brand": "Delonghi",
+      "product": "DeLonghi Magnifica S ECAM21.117",
+      "price_sek": 2890,
+      "rank": 1
+     },
+     {
+      "brand": "Sjöstrand",
+      "product": "Sjöstrand The Original 2.0",
+      "price_sek": 4499,
+      "rank": 2
+     },
+     {
+      "brand": "Nespresso",
+      "product": "Nespresso Essenza Mini",
+      "price_sek": 899,
+      "rank": 3
+     }
+    ]
+   },
+   {
+    "category": "fridge",
+    "n_products": 88,
+    "category_median_sek": 6163,
+    "smeg_median_sek": 9093,
+    "premium_x": 1.5,
+    "smeg_best_rank": 58,
+    "smeg_in_top10": 0,
+    "smeg_products": [
+     {
+      "product": "SMEG S4L120E (Vit)",
+      "price_sek": 7196,
+      "shops": 9,
+      "rank": 58,
+      "url": "https://www.prisjakt.nu/produkt.php?p=13622996"
+     },
+     {
+      "product": "SMEG FAB5RCR6 (Creme)",
+      "price_sek": 9596,
+      "shops": 9,
+      "rank": 63,
+      "url": "https://www.prisjakt.nu/produkt.php?p=15762971"
+     },
+     {
+      "product": "SMEG FAB5RWH6 (White)",
+      "price_sek": 8590,
+      "shops": 9,
+      "rank": 83,
+      "url": "https://www.prisjakt.nu/produkt.php?p=15261267"
+     },
+     {
+      "product": "SMEG FAB28RBL6 (Black)",
+      "price_sek": 17995,
+      "shops": 8,
+      "rank": 88,
+      "url": "https://www.prisjakt.nu/produkt.php?p=15016476"
+     }
+    ],
+    "top_rivals": [
+     {
+      "brand": "Cylinda",
+      "product": "Cylinda K1085E (Vit)",
+      "price_sek": 2890,
+      "rank": 1
+     },
+     {
+      "brand": "Miele",
+      "product": "Miele KU 7030 D (Integrerat)",
+      "price_sek": 25067,
+      "rank": 2
+     },
+     {
+      "brand": "Electrolux",
+      "product": "Electrolux LRB2DE33W (Vit)",
+      "price_sek": 4929,
+      "rank": 3
+     }
+    ]
+   }
+  ]
+ },
+ "timing": {
+  "source_id": "S1",
+  "target": "Google Trends relative search interest (0-100), Smeg topic, Sweden, weekly. Demand PROXY, not sales.",
+  "holdout": {
+   "weeks": 52,
+   "metrics": [
+    {
+     "model": "seasonal_naive",
+     "kind": "baseline",
+     "mae": 5.33,
+     "mape_pct": 11.26,
+     "rmse": 7.02,
+     "beats_seasonal_naive": null
+    },
+    {
+     "model": "train_mean",
+     "kind": "baseline",
+     "mae": 10.02,
+     "mape_pct": 18.63,
+     "rmse": 15.83,
+     "beats_seasonal_naive": false
+    },
+    {
+     "model": "holt_winters_damped",
+     "kind": "model",
+     "mae": 4.09,
+     "mape_pct": 8.32,
+     "rmse": 6.72,
+     "beats_seasonal_naive": true
+    },
+    {
+     "model": "stl_arima",
+     "kind": "model",
+     "mae": 9.11,
+     "mape_pct": 20.35,
+     "rmse": 10.4,
+     "beats_seasonal_naive": false
+    }
+   ]
+  },
+  "chosen_model": "holt_winters_damped",
+  "beats_seasonal_naive": true,
+  "interval_method": "Holt-Winters simulate(): 2000 future paths with additive errors drawn from N(0, fitted residual variance); 10th-90th percentile.",
+  "history": [
+   {
+    "date": "2024-10-20",
+    "value": 37.0
+   },
+   {
+    "date": "2024-10-27",
+    "value": 42.0
+   },
+   {
+    "date": "2024-11-03",
+    "value": 41.0
+   },
+   {
+    "date": "2024-11-10",
+    "value": 55.0
+   },
+   {
+    "date": "2024-11-17",
+    "value": 61.0
+   },
+   {
+    "date": "2024-11-24",
+    "value": 80.0
+   },
+   {
+    "date": "2024-12-01",
+    "value": 51.0
+   },
+   {
+    "date": "2024-12-08",
+    "value": 43.0
+   },
+   {
+    "date": "2024-12-15",
+    "value": 46.0
+   },
+   {
+    "date": "2024-12-22",
+    "value": 67.0
+   },
+   {
+    "date": "2024-12-29",
+    "value": 48.0
+   },
+   {
+    "date": "2025-01-05",
+    "value": 50.0
+   },
+   {
+    "date": "2025-01-12",
+    "value": 41.0
+   },
+   {
+    "date": "2025-01-19",
+    "value": 37.0
+   },
+   {
+    "date": "2025-01-26",
+    "value": 40.0
+   },
+   {
+    "date": "2025-02-02",
+    "value": 39.0
+   },
+   {
+    "date": "2025-02-09",
+    "value": 41.0
+   },
+   {
+    "date": "2025-02-16",
+    "value": 37.0
+   },
+   {
+    "date": "2025-02-23",
+    "value": 34.0
+   },
+   {
+    "date": "2025-03-02",
+    "value": 34.0
+   },
+   {
+    "date": "2025-03-09",
+    "value": 33.0
+   },
+   {
+    "date": "2025-03-16",
+    "value": 33.0
+   },
+   {
+    "date": "2025-03-23",
+    "value": 30.0
+   },
+   {
+    "date": "2025-03-30",
+    "value": 34.0
+   },
+   {
+    "date": "2025-04-06",
+    "value": 40.0
+   },
+   {
+    "date": "2025-04-13",
+    "value": 37.0
+   },
+   {
+    "date": "2025-04-20",
+    "value": 39.0
+   },
+   {
+    "date": "2025-04-27",
+    "value": 35.0
+   },
+   {
+    "date": "2025-05-04",
+    "value": 41.0
+   },
+   {
+    "date": "2025-05-11",
+    "value": 38.0
+   },
+   {
+    "date": "2025-05-18",
+    "value": 40.0
+   },
+   {
+    "date": "2025-05-25",
+    "value": 39.0
+   },
+   {
+    "date": "2025-06-01",
+    "value": 36.0
+   },
+   {
+    "date": "2025-06-08",
+    "value": 31.0
+   },
+   {
+    "date": "2025-06-15",
+    "value": 26.0
+   },
+   {
+    "date": "2025-06-22",
+    "value": 34.0
+   },
+   {
+    "date": "2025-06-29",
+    "value": 31.0
+   },
+   {
+    "date": "2025-07-06",
+    "value": 36.0
+   },
+   {
+    "date": "2025-07-13",
+    "value": 31.0
+   },
+   {
+    "date": "2025-07-20",
+    "value": 38.0
+   },
+   {
+    "date": "2025-07-27",
+    "value": 35.0
+   },
+   {
+    "date": "2025-08-03",
+    "value": 39.0
+   },
+   {
+    "date": "2025-08-10",
+    "value": 35.0
+   },
+   {
+    "date": "2025-08-17",
+    "value": 39.0
+   },
+   {
+    "date": "2025-08-24",
+    "value": 41.0
+   },
+   {
+    "date": "2025-08-31",
+    "value": 39.0
+   },
+   {
+    "date": "2025-09-07",
+    "value": 42.0
+   },
+   {
+    "date": "2025-09-14",
+    "value": 40.0
+   },
+   {
+    "date": "2025-09-21",
+    "value": 37.0
+   },
+   {
+    "date": "2025-09-28",
+    "value": 40.0
+   },
+   {
+    "date": "2025-10-05",
+    "value": 38.0
+   },
+   {
+    "date": "2025-10-12",
+    "value": 43.0
+   },
+   {
+    "date": "2025-10-19",
+    "value": 43.0
+   },
+   {
+    "date": "2025-10-26",
+    "value": 56.0
+   },
+   {
+    "date": "2025-11-02",
+    "value": 52.0
+   },
+   {
+    "date": "2025-11-09",
+    "value": 54.0
+   },
+   {
+    "date": "2025-11-16",
+    "value": 74.0
+   },
+   {
+    "date": "2025-11-23",
+    "value": 100.0
+   },
+   {
+    "date": "2025-11-30",
+    "value": 58.0
+   },
+   {
+    "date": "2025-12-07",
+    "value": 54.0
+   },
+   {
+    "date": "2025-12-14",
+    "value": 53.0
+   },
+   {
+    "date": "2025-12-21",
+    "value": 78.0
+   },
+   {
+    "date": "2025-12-28",
+    "value": 66.0
+   },
+   {
+    "date": "2026-01-04",
+    "value": 53.0
+   },
+   {
+    "date": "2026-01-11",
+    "value": 44.0
+   },
+   {
+    "date": "2026-01-18",
+    "value": 44.0
+   },
+   {
+    "date": "2026-01-25",
+    "value": 40.0
+   },
+   {
+    "date": "2026-02-01",
+    "value": 47.0
+   },
+   {
+    "date": "2026-02-08",
+    "value": 44.0
+   },
+   {
+    "date": "2026-02-15",
+    "value": 38.0
+   },
+   {
+    "date": "2026-02-22",
+    "value": 39.0
+   },
+   {
+    "date": "2026-03-01",
+    "value": 36.0
+   },
+   {
+    "date": "2026-03-08",
+    "value": 37.0
+   },
+   {
+    "date": "2026-03-15",
+    "value": 39.0
+   },
+   {
+    "date": "2026-03-22",
+    "value": 39.0
+   },
+   {
+    "date": "2026-03-29",
+    "value": 43.0
+   },
+   {
+    "date": "2026-04-05",
+    "value": 46.0
+   },
+   {
+    "date": "2026-04-12",
+    "value": 39.0
+   },
+   {
+    "date": "2026-04-19",
+    "value": 37.0
+   },
+   {
+    "date": "2026-04-26",
+    "value": 36.0
+   },
+   {
+    "date": "2026-05-03",
+    "value": 40.0
+   },
+   {
+    "date": "2026-05-10",
+    "value": 42.0
+   },
+   {
+    "date": "2026-05-17",
+    "value": 39.0
+   },
+   {
+    "date": "2026-05-24",
+    "value": 36.0
+   },
+   {
+    "date": "2026-05-31",
+    "value": 39.0
+   },
+   {
+    "date": "2026-06-07",
+    "value": 39.0
+   },
+   {
+    "date": "2026-06-14",
+    "value": 33.0
+   },
+   {
+    "date": "2026-06-21",
+    "value": 33.0
+   },
+   {
+    "date": "2026-06-28",
+    "value": 31.0
+   },
+   {
+    "date": "2026-07-05",
+    "value": 35.0
+   },
+   {
+    "date": "2026-07-12",
+    "value": 33.0
+   },
+   {
+    "date": "2026-07-19",
+    "value": 38.0
+   },
+   {
+    "date": "2026-07-26",
+    "value": 37.0
+   },
+   {
+    "date": "2026-08-02",
+    "value": 45.0
+   },
+   {
+    "date": "2026-08-09",
+    "value": 47.0
+   },
+   {
+    "date": "2026-08-16",
+    "value": 38.0
+   },
+   {
+    "date": "2026-08-23",
+    "value": 36.0
+   },
+   {
+    "date": "2026-08-30",
+    "value": 34.0
+   },
+   {
+    "date": "2026-09-06",
+    "value": 35.0
+   },
+   {
+    "date": "2026-09-13",
+    "value": 32.0
+   },
+   {
+    "date": "2026-09-20",
+    "value": 37.0
+   },
+   {
+    "date": "2026-09-27",
+    "value": 39.0
+   },
+   {
+    "date": "2026-10-04",
+    "value": 43.0
+   },
+   {
+    "date": "2026-10-11",
+    "value": 39.0
+   }
+  ],
+  "forecast": [
+   {
+    "date": "2026-10-18",
+    "mean": 38.5,
+    "lo80": 32.8,
+    "hi80": 44.7
+   },
+   {
+    "date": "2026-10-25",
+    "mean": 46.5,
+    "lo80": 40.5,
+    "hi80": 52.8
+   },
+   {
+    "date": "2026-11-01",
+    "mean": 45.4,
+    "lo80": 38.9,
+    "hi80": 51.3
+   },
+   {
+    "date": "2026-11-08",
+    "mean": 55.8,
+    "lo80": 49.5,
+    "hi80": 62.5
+   },
+   {
+    "date": "2026-11-15",
+    "mean": 74.2,
+    "lo80": 67.9,
+    "hi80": 80.5
+   },
+   {
+    "date": "2026-11-22",
+    "mean": 70.6,
+    "lo80": 64.0,
+    "hi80": 76.9
+   },
+   {
+    "date": "2026-11-29",
+    "mean": 52.4,
+    "lo80": 46.0,
+    "hi80": 59.2
+   },
+   {
+    "date": "2026-12-06",
+    "mean": 49.8,
+    "lo80": 43.1,
+    "hi80": 56.7
+   },
+   {
+    "date": "2026-12-13",
+    "mean": 53.6,
+    "lo80": 47.1,
+    "hi80": 60.4
+   },
+   {
+    "date": "2026-12-20",
+    "mean": 68.2,
+    "lo80": 61.5,
+    "hi80": 75.1
+   },
+   {
+    "date": "2026-12-27",
+    "mean": 53.6,
+    "lo80": 46.8,
+    "hi80": 60.5
+   },
+   {
+    "date": "2027-01-03",
+    "mean": 48.0,
+    "lo80": 40.7,
+    "hi80": 54.9
+   }
+  ],
+  "monthly_profile": [
+   {
+    "month": 1,
+    "name": "Jan",
+    "avg_index": 38.3,
+    "pct_vs_annual_mean": 5.5
+   },
+   {
+    "month": 2,
+    "name": "Feb",
+    "avg_index": 34.5,
+    "pct_vs_annual_mean": -5.0
+   },
+   {
+    "month": 3,
+    "name": "Mar",
+    "avg_index": 32.5,
+    "pct_vs_annual_mean": -10.5
+   },
+   {
+    "month": 4,
+    "name": "Apr",
+    "avg_index": 32.1,
+    "pct_vs_annual_mean": -11.5
+   },
+   {
+    "month": 5,
+    "name": "May",
+    "avg_index": 31.5,
+    "pct_vs_annual_mean": -13.3
+   },
+   {
+    "month": 6,
+    "name": "Jun",
+    "avg_index": 28.7,
+    "pct_vs_annual_mean": -21.0
+   },
+   {
+    "month": 7,
+    "name": "Jul",
+    "avg_index": 31.4,
+    "pct_vs_annual_mean": -13.5
+   },
+   {
+    "month": 8,
+    "name": "Aug",
+    "avg_index": 34.0,
+    "pct_vs_annual_mean": -6.4
+   },
+   {
+    "month": 9,
+    "name": "Sep",
+    "avg_index": 32.4,
+    "pct_vs_annual_mean": -10.9
+   },
+   {
+    "month": 10,
+    "name": "Oct",
+    "avg_index": 35.2,
+    "pct_vs_annual_mean": -3.2
+   },
+   {
+    "month": 11,
+    "name": "Nov",
+    "avg_index": 55.8,
+    "pct_vs_annual_mean": 53.6
+   },
+   {
+    "month": 12,
+    "name": "Dec",
+    "avg_index": 50.0,
+    "pct_vs_annual_mean": 37.6
+   }
+  ],
+  "top_iso_weeks": [
+   {
+    "iso_week": 47,
+    "avg_index": 68.4,
+    "pct_vs_annual_mean": 88.3
+   },
+   {
+    "iso_week": 48,
+    "avg_index": 64.8,
+    "pct_vs_annual_mean": 78.4
+   },
+   {
+    "iso_week": 52,
+    "avg_index": 62.4,
+    "pct_vs_annual_mean": 71.8
+   }
+  ],
+  "peak_weeks_by_year": [
+   {
+    "year": 2022,
+    "peak_date": "2022-11-20",
+    "contains_black_friday": true,
+    "iso_week": 47,
+    "value": 55.0,
+    "peak_month": "Nov"
+   },
+   {
+    "year": 2023,
+    "peak_date": "2023-11-19",
+    "contains_black_friday": true,
+    "iso_week": 47,
+    "value": 77.0,
+    "peak_month": "Nov"
+   },
+   {
+    "year": 2024,
+    "peak_date": "2024-11-24",
+    "contains_black_friday": true,
+    "iso_week": 48,
+    "value": 80.0,
+    "peak_month": "Nov"
+   },
+   {
+    "year": 2025,
+    "peak_date": "2025-11-23",
+    "contains_black_friday": true,
+    "iso_week": 48,
+    "value": 100.0,
+    "peak_month": "Nov"
+   }
+  ],
+  "yoy_change_pct": 9.3
+ },
+ "model": {
+  "scope": "Swedish counties",
+  "target": "Google search interest in Smeg (5 y)",
+  "features": [
+   "log_hh_disp_income_median_tkr",
+   "log_households",
+   "households_per_capita",
+   "dwellings_completed_per_1000"
+  ],
+  "n": 21,
+  "baseline_mae": 7.357,
+  "model_mae": 6.412,
+  "model_r2": 0.27,
+  "cv": "leave-one-out",
+  "beats_baseline": true
+ },
+ "sweden": {
+  "national_retailers_per_100k_hh": 10.05,
+  "stores_total": 504,
+  "stores_mapped": 503,
+  "stores_unmatched": 1,
+  "stores_unmatched_names": [
+   "Elgiganten Ljungby"
+  ],
+  "score_formula": "50% Smeg search interest (z-score) + 50% low retailer density (z-score), scaled 0–1",
+  "counties": [
+   {
+    "code": "01",
+    "name": "Stockholm",
+    "rank": 1,
+    "score": 1.0,
+    "demand_index": 100,
+    "expected": 79.1,
+    "residual": 20.9,
+    "retailers": 78,
+    "retailers_per_100k_hh": 6.92,
+    "households": 1127801,
+    "income_median_tkr": 551.5,
+    "dwellings_per_1000": 4.3,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "100 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "6.9 (78 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "4.3",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "552 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Sign new retailers or test a pop-up in Stockholm: interest is above the Swedish median but Smeg has 6.9 retailers per 100k households vs 10.1 nationally."
+   },
+   {
+    "code": "12",
+    "name": "Skåne",
+    "rank": 2,
+    "score": 0.78,
+    "demand_index": 95,
+    "expected": 79.8,
+    "residual": 15.2,
+    "retailers": 67,
+    "retailers_per_100k_hh": 10.09,
+    "households": 664322,
+    "income_median_tkr": 464.7,
+    "dwellings_per_1000": 2.2,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "95 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "10.1 (67 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "2.2",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "465 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Skåne already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "03",
+    "name": "Uppsala",
+    "rank": 3,
+    "score": 0.68,
+    "demand_index": 77,
+    "expected": 78.4,
+    "residual": -1.4,
+    "retailers": 14,
+    "retailers_per_100k_hh": 7.22,
+    "households": 193944,
+    "income_median_tkr": 467.6,
+    "dwellings_per_1000": 3.9,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "77 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "7.2 (14 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "3.9",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "468 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Sign new retailers or test a pop-up in Uppsala: interest is above the Swedish median but Smeg has 7.2 retailers per 100k households vs 10.1 nationally."
+   },
+   {
+    "code": "07",
+    "name": "Kronoberg",
+    "rank": 4,
+    "score": 0.67,
+    "demand_index": 77,
+    "expected": 74.1,
+    "residual": 2.9,
+    "retailers": 7,
+    "retailers_per_100k_hh": 7.31,
+    "households": 95795,
+    "income_median_tkr": 443.7,
+    "dwellings_per_1000": 1.7,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "77 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "7.3 (7 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "1.7",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "444 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Sign new retailers or test a pop-up in Kronoberg: interest is above the Swedish median but Smeg has 7.3 retailers per 100k households vs 10.1 nationally."
+   },
+   {
+    "code": "13",
+    "name": "Halland",
+    "rank": 5,
+    "score": 0.57,
+    "demand_index": 82,
+    "expected": 86.0,
+    "residual": -4.0,
+    "retailers": 17,
+    "retailers_per_100k_hh": 10.88,
+    "households": 156207,
+    "income_median_tkr": 512.9,
+    "dwellings_per_1000": 3.8,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "82 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "10.9 (17 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "3.8",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "513 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Halland already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "19",
+    "name": "Västmanland",
+    "rank": 6,
+    "score": 0.56,
+    "demand_index": 69,
+    "expected": 74.7,
+    "residual": -5.7,
+    "retailers": 10,
+    "retailers_per_100k_hh": 7.46,
+    "households": 134010,
+    "income_median_tkr": 447.7,
+    "dwellings_per_1000": 1.5,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "69 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "7.5 (10 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "1.5",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "448 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Sign new retailers or test a pop-up in Västmanland: interest is near the Swedish median but Smeg has 7.5 retailers per 100k households vs 10.1 nationally."
+   },
+   {
+    "code": "18",
+    "name": "Örebro",
+    "rank": 7,
+    "score": 0.55,
+    "demand_index": 75,
+    "expected": 70.6,
+    "residual": 4.4,
+    "retailers": 14,
+    "retailers_per_100k_hh": 9.28,
+    "households": 150922,
+    "income_median_tkr": 419.2,
+    "dwellings_per_1000": 3.0,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "75 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "9.3 (14 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "3.0",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "419 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Sign new retailers or test a pop-up in Örebro: interest is above the Swedish median but Smeg has 9.3 retailers per 100k households vs 10.1 nationally."
+   },
+   {
+    "code": "09",
+    "name": "Gotland",
+    "rank": 8,
+    "score": 0.55,
+    "demand_index": 78,
+    "expected": 62.7,
+    "residual": 15.3,
+    "retailers": 3,
+    "retailers_per_100k_hh": 10.2,
+    "households": 29408,
+    "income_median_tkr": 430.1,
+    "dwellings_per_1000": 1.1,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "78 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "10.2 (3 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "1.1",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "430 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Gotland already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "05",
+    "name": "Östergötland",
+    "rank": 9,
+    "score": 0.53,
+    "demand_index": 75,
+    "expected": 74.5,
+    "residual": 0.5,
+    "retailers": 22,
+    "retailers_per_100k_hh": 9.64,
+    "households": 228314,
+    "income_median_tkr": 438.8,
+    "dwellings_per_1000": 2.9,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "75 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "9.6 (22 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "2.9",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "439 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Sign new retailers or test a pop-up in Östergötland: interest is above the Swedish median but Smeg has 9.6 retailers per 100k households vs 10.1 nationally."
+   },
+   {
+    "code": "14",
+    "name": "Västra Götaland",
+    "rank": 10,
+    "score": 0.52,
+    "demand_index": 80,
+    "expected": 83.3,
+    "residual": -3.3,
+    "retailers": 94,
+    "retailers_per_100k_hh": 11.25,
+    "households": 835185,
+    "income_median_tkr": 473.7,
+    "dwellings_per_1000": 2.4,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "80 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "11.3 (94 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "2.4",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "474 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Västra Götaland already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "04",
+    "name": "Södermanland",
+    "rank": 11,
+    "score": 0.5,
+    "demand_index": 76,
+    "expected": 74.9,
+    "residual": 1.1,
+    "retailers": 15,
+    "retailers_per_100k_hh": 10.53,
+    "households": 142498,
+    "income_median_tkr": 439.3,
+    "dwellings_per_1000": 2.8,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "76 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "10.5 (15 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "2.8",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "439 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Södermanland already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "17",
+    "name": "Värmland",
+    "rank": 12,
+    "score": 0.4,
+    "demand_index": 73,
+    "expected": 67.2,
+    "residual": 5.8,
+    "retailers": 17,
+    "retailers_per_100k_hh": 11.88,
+    "households": 143046,
+    "income_median_tkr": 419.0,
+    "dwellings_per_1000": 4.0,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "73 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "11.9 (17 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "4.0",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "419 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Värmland already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "08",
+    "name": "Kalmar",
+    "rank": 13,
+    "score": 0.39,
+    "demand_index": 74,
+    "expected": 69.0,
+    "residual": 5.0,
+    "retailers": 15,
+    "retailers_per_100k_hh": 12.42,
+    "households": 120725,
+    "income_median_tkr": 423.4,
+    "dwellings_per_1000": 0.9,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "74 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "12.4 (15 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "0.9",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "423 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Kalmar already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "06",
+    "name": "Jönköping",
+    "rank": 14,
+    "score": 0.37,
+    "demand_index": 73,
+    "expected": 81.3,
+    "residual": -8.3,
+    "retailers": 21,
+    "retailers_per_100k_hh": 12.36,
+    "households": 169843,
+    "income_median_tkr": 466.0,
+    "dwellings_per_1000": 1.1,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "73 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "12.4 (21 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "1.1",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "466 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Jönköping already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "10",
+    "name": "Blekinge",
+    "rank": 15,
+    "score": 0.32,
+    "demand_index": 71,
+    "expected": 69.1,
+    "residual": 1.9,
+    "retailers": 10,
+    "retailers_per_100k_hh": 13.02,
+    "households": 76810,
+    "income_median_tkr": 431.4,
+    "dwellings_per_1000": 1.3,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "71 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "13.0 (10 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "1.3",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "431 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Blekinge already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "22",
+    "name": "Västernorrland",
+    "rank": 16,
+    "score": 0.25,
+    "demand_index": 58,
+    "expected": 69.8,
+    "residual": -11.8,
+    "retailers": 13,
+    "retailers_per_100k_hh": 10.83,
+    "households": 120000,
+    "income_median_tkr": 427.7,
+    "dwellings_per_1000": 0.9,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "58 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "10.8 (13 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "0.9",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "428 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Västernorrland already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "21",
+    "name": "Gävleborg",
+    "rank": 17,
+    "score": 0.22,
+    "demand_index": 63,
+    "expected": 68.5,
+    "residual": -5.5,
+    "retailers": 18,
+    "retailers_per_100k_hh": 12.71,
+    "households": 141585,
+    "income_median_tkr": 415.2,
+    "dwellings_per_1000": 0.9,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "63 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "12.7 (18 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "0.9",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "415 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Gävleborg already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "20",
+    "name": "Dalarna",
+    "rank": 18,
+    "score": 0.21,
+    "demand_index": 65,
+    "expected": 70.9,
+    "residual": -5.9,
+    "retailers": 19,
+    "retailers_per_100k_hh": 13.49,
+    "households": 140853,
+    "income_median_tkr": 428.7,
+    "dwellings_per_1000": 2.1,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "65 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "13.5 (19 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "2.1",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "429 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Dalarna already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "24",
+    "name": "Västerbotten",
+    "rank": 19,
+    "score": 0.2,
+    "demand_index": 62,
+    "expected": 72.3,
+    "residual": -10.3,
+    "retailers": 18,
+    "retailers_per_100k_hh": 13.01,
+    "households": 138336,
+    "income_median_tkr": 443.1,
+    "dwellings_per_1000": 3.9,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "62 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "13.0 (18 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "3.9",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "443 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Västerbotten already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "25",
+    "name": "Norrbotten",
+    "rank": 20,
+    "score": 0.18,
+    "demand_index": 68,
+    "expected": 72.7,
+    "residual": -4.7,
+    "retailers": 19,
+    "retailers_per_100k_hh": 14.97,
+    "households": 126948,
+    "income_median_tkr": 443.3,
+    "dwellings_per_1000": 7.8,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "68 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "15.0 (19 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "7.8",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "443 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Norrbotten already has at least the national retailer density; protect share rather than expand."
+   },
+   {
+    "code": "23",
+    "name": "Jämtland",
+    "rank": 21,
+    "score": 0.0,
+    "demand_index": 66,
+    "expected": 66.7,
+    "residual": -0.7,
+    "retailers": 12,
+    "retailers_per_100k_hh": 18.18,
+    "households": 66015,
+    "income_median_tkr": 417.4,
+    "dwellings_per_1000": 1.3,
+    "drivers": [
+     {
+      "label": "Smeg search interest (Sweden median = 74)",
+      "value": "66 / 100",
+      "source_id": "S1"
+     },
+     {
+      "label": "Smeg retailers per 100k households (national 10.1)",
+      "value": "18.2 (12 stores)",
+      "source_id": "S5"
+     },
+     {
+      "label": "New dwellings completed per 1,000 residents, 2025",
+      "value": "1.3",
+      "source_id": "S4"
+     },
+     {
+      "label": "Median household disposable income, 2024",
+      "value": "417 kSEK",
+      "source_id": "S3"
+     }
+    ],
+    "action": "Jämtland already has at least the national retailer density; protect share rather than expand."
+   }
+  ],
+  "awareness": [
+   {
+    "code": "22",
+    "name": "Västernorrland",
+    "actual": 58,
+    "expected": 69.8,
+    "residual": -11.8,
+    "stability": 0.86
+   },
+   {
+    "code": "24",
+    "name": "Västerbotten",
+    "actual": 62,
+    "expected": 72.3,
+    "residual": -10.3,
+    "stability": 0.91
+   },
+   {
+    "code": "06",
+    "name": "Jönköping",
+    "actual": 73,
+    "expected": 81.3,
+    "residual": -8.3,
+    "stability": 0.81
+   },
+   {
+    "code": "20",
+    "name": "Dalarna",
+    "actual": 65,
+    "expected": 70.9,
+    "residual": -5.9,
+    "stability": 0.64
+   },
+   {
+    "code": "19",
+    "name": "Västmanland",
+    "actual": 69,
+    "expected": 74.7,
+    "residual": -5.7,
+    "stability": 0.57
+   }
+  ]
+ },
+ "value": {
+  "smeg_se_revenue_sek": 470292000,
+  "revenue_year": 2025,
+  "se_households": 5002567,
+  "revenue_source_id": "S6",
+  "capture_rate_default": 0.5,
+  "top_n": 3
+ }
+}

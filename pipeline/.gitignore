@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+# Raw scraped pages are re-fetched by the scripts and not redistributed
+data/raw/prisjakt/
+data/raw/smeg_stores_locator_se_*.html
