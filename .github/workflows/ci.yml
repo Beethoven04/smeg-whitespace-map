@@ -41,12 +41,5 @@ jobs:
         run: |
           cp data/clean/app_data.json /tmp/app_data.before.json
           PYTHON=python ./run_all.sh --offline
-      - name: Rebuilt data matches the committed app data (ignoring the timestamp)
-        run: |
-          python - <<'PY'
-          import json
-          a = json.load(open("/tmp/app_data.before.json")); b = json.load(open("data/clean/app_data.json"))
-          a.pop("generated_at", None); b.pop("generated_at", None)
-          assert a == b, "app_data.json is not reproducible from the committed data"
-          print("app_data.json reproducible")
-          PY
+      - name: Rebuilt data matches the committed app data
+        run: python scripts/check_reproducible.py /tmp/app_data.before.json data/clean/app_data.json
